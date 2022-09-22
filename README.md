@@ -30,8 +30,8 @@ ardından belirtilen kodu dosyanın sonuna ekleyin
             }
  }
  ```
- * ve modülünüzü "/usr/share/blest-framework/src/data/modules/exploits" dizinine eklemeyi unutmayın!
+ * ve modülünüzü "/usr/share/blest-framework/src/data/modules/exploit" dizinine eklemeyi unutmayın!
 # Başlıklar
-* bu arada "blestsploit" gibi başlıklar istiyorsanız "config.ini"deki "official"yi "true" olarak değiştirin, ve "unofficial" ifadesini "false" olarak değiştirin
+* bu arada "BlestSploit" gibi başlıklar istiyorsanız "config.ini"deki "official"yi "true" olarak değiştirin, ve "unofficial" ifadesini "false" olarak değiştirin
 # Uyarı
 BlestSploit ile yaptığınız işlemlerden sorumlu DEĞİLİZ, lütfen bu aracı yalnızca eğitim amaçlı kimi kullanın!
