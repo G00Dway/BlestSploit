@@ -740,9 +740,9 @@ Modüller JSON Dosya Dizini  : "/usr/share/blest-framework/src/data/core/module/
 
 Geliştiriciler vb. Hakkında
 ================================
-Yazan                       : Marcus Walker (Ənvər) veya G00Dway
+Yazan                       : Marcus Walker (Ənvər) - G00Dway
 Bizim Takım                 : Blest Boyz
-Bizim Patronumuz            : Fux Walker
+Bizim Patronumuz            : Fux Walker, Rex Walker
 Üyelerimiz (Krediler)       : Nemesis, Rotasız, Dilax, Cyrus, Yakuza, Diğerleri...
 
 Sosyal Hesaplar
