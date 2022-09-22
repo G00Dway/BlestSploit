@@ -189,7 +189,7 @@ def main():
                 print(Fore.RED+'[-]'+Fore.RESET+' Kullanım: show <-o>')
             else:
                 try:
-                    if btf[1] == '-o':
+                    if btf[1] == '-o' or btf[1] == 'options':
                         def show_options():
                             options = f'''
 Modül ({Fore.RED}{module_cmd}{Fore.RESET}) seçenekleri

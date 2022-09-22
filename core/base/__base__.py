@@ -31,11 +31,13 @@ def init_runtime(path):
             if os.path.isdir(path+'/'+r):
                 run_1 = os.listdir(path+'/'+r)
                 for n in run_1:
+                    n = n+" &"
                     if ".sh" in n:
                         os.system("bash "+path+'/'+r+"/"+n)
                     elif ".py" in n:
                         os.system("python3 "+path+'/'+r+"/"+n)
             else:
+                r = r+" &"
                 if ".sh" in r:
                     os.system("bash "+path+'/'+r)
                 elif ".py" in r:
@@ -59,7 +61,7 @@ try:
     if os.path.exists(core+'/src/core/runtime'):
         init_runtime(core+'/src/core/runtime')
     else:
-        print(Fore.BLUE+'[i]'+Fore.RESET+' "RUNTIME" dizini mevcut değil, dizin yaratiliyor...')
+        # print(Fore.BLUE+'[i]'+Fore.RESET+' "RUNTIME" dizini mevcut değil, dizin yaratılıyor...')
         os.mkdir(core+'/src/core/runtime')
 except:
     pass
@@ -69,7 +71,7 @@ try:
         pass
     else:
         print(Fore.RED+'[-]'+Fore.RESET+' Hata: Dil config dosyaları bulunamadı! Ölümcül hata...')
-        sys.exit(1)
+        # sys.exit(1)
 except:
     pass
 for lang in languages:
@@ -186,7 +188,7 @@ Geliştiriciler vb. Hakkında
 ================================
 Yazan                       : Marcus Walker (Ənvər) - G00Dway
 Bizim Takım                 : Blest Boyz
-Bizim Patronumuz            : Fux Walker
+Bizim Patronumuz            : Fux Walker, Rex Walker
 Üyelerimiz (Krediler)       : Nemesis, Rotasız, Dilax, Cyrus, Yakuza, Diğerleri...
 
 Sosyal Hesaplar

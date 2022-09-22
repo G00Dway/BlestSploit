@@ -30,6 +30,21 @@
             "download_manager": "wget",
             "prefix": "-q -P",
             "save_path": "/usr/share/blest-framework/files/cache"
+        },
+        "3": {
+            "name": "Database Support",
+            "author": "G00Dway",
+            "filename": "localhost.rar",
+            "core": "Core file",
+            "ext_filename": "localhost.py",
+            "description": "BlestSploit için Database (localhost) desteği",
+            "language": "python",
+            "version": "0.2",
+            "lookup_name": "localhost_support",
+            "url": "https://github.com/G00Dway/BlestSploit-archive/releases/download/support2/localhost.rar",
+            "download_manager": "wget",
+            "prefix": "-q -P",
+            "save_path": "/usr/share/blest-framework/files/cache"
         }
     }
 }
