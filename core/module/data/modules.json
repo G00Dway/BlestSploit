@@ -347,8 +347,8 @@
         "options": {
             "TARGET": ["Cihazın/Hedefin IP/URL adresi", ""],
             "TARGETPORT": ["Hedef/Server Port adresi", ""],
-            "LOCALHOST": ["Dinleme IP adresi"],
-            "LOCALPORT": ["Dinleme bağlantı noktası adresi"]
+            "LOCALHOST": ["Dinleme IP adresi", ""],
+            "LOCALPORT": ["Dinleme bağlantı noktası adresi", ""]
         }
     }
 }
