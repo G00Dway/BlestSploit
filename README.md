@@ -19,11 +19,11 @@ Herhangi bir hata bulduysanız, lütfen bunları şu adrese bildirin: <a href="h
 * İlk olarak, "/usr/share/blest-framework/src/data/core/module/data/" adresine gidin ve "modules.json" adlı bir dosya göreceksiniz, onu favori düzenleyicinizle açın
 ardından belirtilen kodu dosyanın sonuna ekleyin
 ```
-"bir say":{
+"bir numara":{
             "author": "Ad",
-            "name": "modulun dosya adı ama .py, .sh, ve.s olmasın",
-            "prefix": "modulun prefixleri, E.x: -t $1 -p $2", # $1 - AYAR1, $2 - AYAR2, $2-ni $3 etseniz AYAR2 yinede seçilecek AYAR3 olsada
-            "options": { # modulun ayarları
+            "name": "Modülün dosya adı ama .py, .sh, ve.s olmasın",
+            "prefix": "Modülün prefixleri, Vb: -t $1 -p $2", # $1 - AYAR1, $2 - AYAR2, $2-ni $3 etseniz AYAR2 yinede seçilecek AYAR3 olsada
+            "options": { # Modülün ayarları
                   "AYAR1": ["AYAR HAKKINDA", ""],
                   "AYAR2": ["AYAR HAKKINDA", ""],
                   "AYAR3": ["AYAR HAKKINDA", ""] # sonsuz ayar koyabilirsiniz
