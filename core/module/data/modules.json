@@ -92,7 +92,7 @@
         "prefix": "$1:$2",
         "options": {
             "IP_ADDR": ["Hedef URL/Link/IP adresi", ""],
-            "PORT": ["Hedef/Server Port adresi", "80"]
+            "TARGETPORT": ["Hedef/Server Port adresi", "80"]
         }
     },
     "11": {
@@ -101,7 +101,7 @@
         "prefix": "-t $1 -p $2 -L $3 -P $4 -Lo $5 -Lp $6",
         "options": {
             "TARGET": ["Hedef IP adresi", ""],
-            "PORT": ["Hedef/Server Port adresi", "80"],
+            "TARGETPORT": ["Hedef/Server Port adresi", "80"],
             "LOCALHOST": ["Dinleme IP adresi", ""],
             "LOCALPORT": ["Dinleme bağlantı noktası adresi", ""],
             "LOGIN": ["Giriş için giriş adı", "admin"],
@@ -142,7 +142,7 @@
             "GATEWAY": ["Router/Modem'in IP Adresi (GATEWAY)", ""],
             "START_NUM": ["Başlanacak IP Adresi Numarası (Mes. 1)", "1"],
             "END_NUM": ["IP Adresi Numarası Sonu (Mes. 100)", "100"],
-            "PORT": ["Hedef/Server Port Adresi, Yalnızca bu bağlantı noktasında (Portda) açılan belirli cihazları gösterecek", "153"]
+            "SCANPORT": ["Hedef/Server Port Adresi, Yalnızca bu bağlantı noktasında (Portda) açılan belirli cihazları gösterecek", "153"]
         }
     },
     "16": {
@@ -203,7 +203,7 @@
         "prefix": "$1 $2",
         "options": {
             "TARGET": ["Cihazın/Hedefin IP/URL adresi", ""],
-            "PORT": ["Hedef/Server Port adresi", ""]
+            "TARGETPORT": ["Hedef/Server Port adresi", ""]
         }
     },
     "23": {
@@ -219,7 +219,7 @@
         "version": "1.0",
         "prefix": "$1",
         "options": {
-            "PORT": ["Hedef/Server Port adresi", ""]
+            "PORT": ["Server Port adresi", ""]
         }
     },
     "25": {
@@ -237,7 +237,7 @@
         "prefix": "$1 $2 $3 $4",
         "options": {
             "TARGET": ["Cihazın/Hedefin IP/URL adresi", ""],
-            "PORT": ["Hedef/Server Port adresi", ""],
+            "TARGETPORT": ["Hedef/Server Port adresi", ""],
             "PASSWORD": ["Giriş için şifre", ""],
             "PLUCKCMS_PATH": ["Webshell'i yüklemek için Pluck CMS yolu", ""]
         }
@@ -267,7 +267,7 @@
         "prefix": "$1 $2",
         "options": {
             "TARGET": ["Cihazın/Hedefin IP/URL adresi", ""],
-            "PORT": ["Hedef/Server Port adresi", ""]
+            "TARGETPORT": ["Hedef/Server Port adresi", ""]
         }
     },
     "30": {
@@ -309,7 +309,7 @@
         "prefix": "$1 $2",
         "options": {
             "TARGET": ["Cihazın/Hedefin IP/URL adresi", ""],
-            "PORT": ["Hedef/Server Port adresi", ""]
+            "TARGETPORT": ["Hedef/Server Port adresi", ""]
         }
     },
     "35": {
@@ -337,7 +337,18 @@
         "prefix": "$1 $2",
         "options": {
             "TARGET": ["Cihazın/Hedefin IP/URL adresi", ""],
-            "PORT": ["Hedef/Server Port adresi", ""]
+            "TARGETPORT": ["Hedef/Server Port adresi", ""]
+        }
+    },
+    "38": {
+        "name": "airspan_airspot_rce",
+        "version": "0.4",
+        "prefix": "--RHOST $1 --RPORT $2 --LHOST $3 --LPORT $4",
+        "options": {
+            "TARGET": ["Cihazın/Hedefin IP/URL adresi", ""],
+            "TARGETPORT": ["Hedef/Server Port adresi", ""],
+            "LOCALHOST": ["Dinleme IP adresi"],
+            "LOCALPORT": ["Dinleme bağlantı noktası adresi"]
         }
     }
 }

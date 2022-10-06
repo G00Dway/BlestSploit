@@ -289,6 +289,7 @@ def info_module(value, module):
                         print(Fore.BLUE+'[i]'+Fore.RESET+' Versiyonu: '+json_data[ch][name]['version'])
                         print(Fore.BLUE+'[i]'+Fore.RESET+' Kod Dili: "'+json_data[ch][name]['language']+'"')
                         print(Fore.BLUE+'[i]'+Fore.RESET+' Tipi: "'+json_data[ch][name]['core']+'"')
+                        print(Fore.BLUE+'[i]'+Fore.RESET+' Çalışıyor?: "'+json_data[ch][name]['working']+'"')
                         # print(Fore.BLUE+'[i]'+Fore.RESET+' Kod Dili "'+json_data[ch][name]['language']+'" bağımlılıkları: "'+str(json_data[ch][name]['pip_depends'])+'"')
                         to_break = True
                         accept = True
