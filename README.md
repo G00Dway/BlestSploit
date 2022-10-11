@@ -6,6 +6,7 @@ BlestSploit Framework, Exploits, Payloads, Posts ve Daha Fazlası gibi yayınlan
 git clone https://github.com/G00Dway/BlestSploit
 cd BlestSploit
 bash install-framework.sh
+sudo btconsole
 ```
 ### Kaldırma
 BlestSploit'i sisteminizden kaldırmak için sadece çalıştırın: `bash uninstall-framework.sh`
