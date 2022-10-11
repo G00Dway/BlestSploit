@@ -1,12 +1,12 @@
 # BlestSploit Framework
 BlestSploit Framework, Exploits, Payloads, Posts ve Daha Fazlası gibi yayınlanmış modüllerle bir framework!
 # Kurulum / Kaldırma
-### Kurulum
+### Kurulum (root)
 ```
 git clone https://github.com/G00Dway/BlestSploit
 cd BlestSploit
 bash install-framework.sh
-sudo btconsole
+btconsole
 ```
 ### Kaldırma
 BlestSploit'i sisteminizden kaldırmak için sadece çalıştırın: `bash uninstall-framework.sh`
