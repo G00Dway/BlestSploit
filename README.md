@@ -1,3 +1,13 @@
+# Yeni sürüm geliyor!
+```
+- Dil desteği
+- Birçok hata düzeltmesi
+- Birçok yeni modül
+- Modül düzeltmeleri
+- Ve daha fazlası!
+
+Yeni sürüm: 1.5.32
+```
 # BlestSploit Framework
 BlestSploit Framework, Exploits, Payloads, Posts ve Daha Fazlası gibi yayınlanmış modüllerle bir framework!
 # Kurulum / Kaldırma
